@@ -83,7 +83,7 @@ namespace Battleship
         {
             UnselectCurrentCell();
             row += amt;
-            row = Mathf.Clamp(row, 0, nRows - 1); // Fixed: Using nRows instead of nCols
+            row = Mathf.Clamp(row, 0, nRows - 1); 
             SelectCurrentCell();
         }
         void ShowHit()
